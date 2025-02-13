@@ -1,3 +1,4 @@
+SELECT 'Hello world'; --This stuff is working :-)
 SELECT 'email' FROM 'customers';
 SELECT 'first_name' FROM 'customers';
 SELECT "select" FROM "customers";
