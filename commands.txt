@@ -1,0 +1,17 @@
+MacOS OR Linux:
+    Terminal:
+        Connect:
+            mysql --host=localhost --user=root --password=password --port=3806  <- This will connect without additional ask for pass
+            mysql --host=localhost --user=root -p <- This will connect and ask for pass
+
+        Postgresql -> open postgres Shell and just provide correct credentials
+Windows:
+    MySQL Shell:
+        Connect:
+            shell.connect({host: 'localhost', user: 'root', port: '3306}) <- After execution it ask for pass(Enter it)
+            \sql <- Switch language of shell to SQL
+            <- No you can execute SQL queries here ->       
+
+MySQL Workbench - similar for Windos and Mac - intuitive interdace
+
+For VSCode use SQLTools Extension 

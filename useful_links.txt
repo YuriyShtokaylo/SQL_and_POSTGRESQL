@@ -1,3 +1,9 @@
-https://dev.mysql.com/downloads/
-https://dev.mysql.com/downloads/mysql/
-https://www.postgresql.org/download/
+Install MySQL -> https://dev.mysql.com/downloads/
+Install MySQL Server -> https://dev.mysql.com/downloads/mysql/
+Install Postgresql -> https://www.postgresql.org/download/
+MySQL: Start, Stop, Uninstall & Reset Password -> https://academind.com/tutorials/mysql-start-stop-uninstall-upgrade-server/
+MySQL Official Documentation -> https://dev.mysql.com/doc/
+Postgersql Official Documentation -> https://www.postgresql.org/docs/
+Visual Studio Code (VS Code) -> https://code.visualstudio.com/
+Cool Extension for working with SQL in VS Code -> https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+More settings for VS Code -> https://code.visualstudio.com/docs/getstarted/settings
