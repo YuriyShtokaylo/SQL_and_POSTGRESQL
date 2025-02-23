@@ -1,0 +1,7 @@
+CREATE DATABASE
+
+Use lowercase identificators(Database and tables names)
+Don't use spaces use underscores('_')
+If you want to use key word as name use backtik(`) in MySQL or quotes(") for PostgreSQL
+
+In MySQL Schema = Database 
