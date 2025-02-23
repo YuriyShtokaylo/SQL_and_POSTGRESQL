@@ -27,3 +27,44 @@ DATA TYPES(VALUE TYPES)
         JSON => ... <= JSON-formated text data
 
 |REM=> It always depends on the exact use-case, but storing JSON data could violate the idea of "data normalization"        
+
+LET SEE ON MySQL and PostgreSQL value types for numbers:
+
+    MySQL:
+
+        For Integer:
+
+            INT or INTEGER
+            TINYINT
+            SMALLINT
+            MEDIUMINT
+            BIGINT
+
+        For Fixed point(exact numbers with decimals):
+
+            DECIMAL
+            NUMERIC
+
+        For floating point:
+
+            FLOAT
+            DOUBLE
+
+    PostgreSQL:
+
+        For Integer:
+
+            INT or INTEGER
+            SMALLINT
+            BIGINT
+                
+        Fixed point:
+
+            DECIMAL
+            NUMERIC
+
+        Float point:
+
+            REAL
+            FLOAT
+            DOUBLE PRECISION -> offers twice the precision (i.e. the number of digits that are stored approximately after the decimal point) than REAL.
