@@ -1,2 +1,2 @@
--- CREATE SCHEMA talently; --This will work in MySQL
+--CREATE DATABASE IF NOT EXISTS talently; -- For MySQL!
 CREATE DATABASE talently;

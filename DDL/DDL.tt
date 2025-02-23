@@ -14,3 +14,9 @@ We should use:
 
     CREATE DATABASE talently; --This will work in MySQL
 
+Preferable way to run this command it is:
+
+    CREATE DATABASE IF NOT EXISTS talently;
+
+This command will check if database with this name doesn't exist yet and only in that case it will create new database.
+IF NOT EXISTS doesn't work for PostgreSQL
