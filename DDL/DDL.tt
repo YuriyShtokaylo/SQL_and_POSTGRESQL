@@ -20,3 +20,5 @@ Preferable way to run this command it is:
 
 This command will check if database with this name doesn't exist yet and only in that case it will create new database.
 IF NOT EXISTS doesn't work for PostgreSQL
+
+CREATE TABLE
