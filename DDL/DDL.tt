@@ -1,0 +1,26 @@
+CREATE DATABASE
+
+Use lowercase identificators(Database and tables names)
+Don't use spaces use underscores('_')
+If you want to use key word as name use backtik(`) in MySQL or quotes(") for PostgreSQL
+
+In MySQL Schema = Database 
+
+So commands to create database it is:
+
+CREATE SCHEMA talently; --This will work in MySQL
+
+We should use:
+
+    CREATE DATABASE talently; --This will work in MySQL
+
+Preferable way to run this command it is:
+
+    CREATE DATABASE IF NOT EXISTS talently;
+
+This command will check if database with this name doesn't exist yet and only in that case it will create new database.
+IF NOT EXISTS doesn't work for PostgreSQL
+
+CREATE TABLE
+
+INSERT INTO

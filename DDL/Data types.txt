@@ -1,0 +1,70 @@
+DATA TYPES(VALUE TYPES)
+
+    Textical:
+
+        CHAR => CHAR(x) <= Store text up toX characters; Shorter text will be space padded.
+        VARCHAR => VARCHAR(x) <= Similar to char with no problems ith shorter text.
+        TEXT, (LONGTEXT, ...) => TEXT <= Just text. No restriction on size.
+        ENUM => ENUM <= Only values fro a predefient set of values are accepted
+
+    Nummeric:
+
+        INT,(SMALLINT, ...) => INT <= No decima places
+        DECIMA and NUMERIC => ... <= Store value exactly
+        FLOAT or REAL => ... <= Don't store values exactly
+
+    Logical:
+
+        BOOLEAN => ..<= True or False(0 or 1)
+
+    Timing:
+
+        DATE => ... <= A vvaluelike 1986-10-20 (i.e. no hour or minutes)
+        DATETIME, TIMESTAMP => ...<= A value li1986-10-20 14:39:05 (i.e. with hours, minutes etc.)
+
+    Other:
+
+        JSON => ... <= JSON-formated text data
+
+|REM=> It always depends on the exact use-case, but storing JSON data could violate the idea of "data normalization"        
+
+LET SEE ON MySQL and PostgreSQL value types for numbers:
+
+    MySQL:
+
+        For Integer:
+
+            INT or INTEGER
+            TINYINT
+            SMALLINT
+            MEDIUMINT
+            BIGINT
+
+        For Fixed point(exact numbers with decimals):
+
+            DECIMAL
+            NUMERIC
+
+        For floating point:
+
+            FLOAT
+            DOUBLE
+
+    PostgreSQL:
+
+        For Integer:
+
+            INT or INTEGER
+            SMALLINT
+            BIGINT
+                
+        Fixed point:
+
+            DECIMAL
+            NUMERIC
+
+        Float point:
+
+            REAL
+            FLOAT
+            DOUBLE PRECISION -> offers twice the precision (i.e. the number of digits that are stored approximately after the decimal point) than REAL.
