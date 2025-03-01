@@ -22,3 +22,5 @@ This command will check if database with this name doesn't exist yet and only in
 IF NOT EXISTS doesn't work for PostgreSQL
 
 CREATE TABLE
+
+INSERT INTO
