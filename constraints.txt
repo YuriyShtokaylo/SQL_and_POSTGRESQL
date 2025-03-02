@@ -1,0 +1,10 @@
+Constraints restrict which values can actualy be inserted into a column
+
+    NOT NULL - a value must be provided
+    UNIQUE - no duplicate values allowed(a value must be unique)
+        PRIMARY KEY - previouse combined give us that
+    CHECK - value must pass a specific check
+    FOREIGN KEY - value must exist in another table
+
+        Column Constraints
+        Table Constraints    
