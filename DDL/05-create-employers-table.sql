@@ -1,4 +1,6 @@
 CREATE TABLE employers (
+    id INT PRIMARY KEY AUTO_INCREMENT, -- MySQL
+    -- id SERIAL PRIMARY KEY, -- Postgress
     company_name VARCHAR(250),
     company_address VARCHAR(300),
     -- yearly_revenu FLOAT(5, 2), -- Approximation[ Allowed: 123.12, 12.1 | Not allowed: 1234.2 | 1.123 =Rounde=> 1.12 ]
