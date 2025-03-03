@@ -1,0 +1,15 @@
+Online shop DB(1 table - Products)
+Products:
+    - Product name
+    - Price
+    - Description
+    - Amount in Stock
+    - Image
+
+Tasks:
+1. Create DB(shop)
+2. Create table(products)    
+3. Choose appropriate column names + data types
+4. Insert dummy data into created table
+5. Updata table and add sensible Constraints
+6. Update table and add a primary key
