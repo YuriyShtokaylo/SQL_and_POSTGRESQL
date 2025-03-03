@@ -1,0 +1,19 @@
+TT VALUES:
+    ENCODING
+        Which characters are supported and can be stored
+
+        - No all encodings support all characters
+
+            Encoding can be set on DB, table or column level
+
+                UNICODE https://home.unicode.org/
+
+                MySQL: Supported Character Sets and Collations https://dev.mysql.com/doc/refman/8.4/en/charset-mysql.html
+                Posgress: Supported Character Sets https://www.postgresql.org/docs/current/multibyte.html
+                Postgree: Supported Collations https://www.postgresql.org/docs/current/collation.html
+
+    COLLATION
+        How are characters omped(ordering)    
+            - Differnt collations control "who wins" in comparisons
+
+                Collation can be set on DB, table o column level
