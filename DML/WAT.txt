@@ -1,0 +1,14 @@
+DML(Data Manipulation Language)
+    CRUD Operations, Data Fetching & Filtering
+
+    - Perform CRUD Operations With MySQL
+
+    - Filtering Data with "WHERE"
+
+    - Running More Complex Queries
+
+CRUD(Basic Data Manipulation Operations):
+    - C (Create Data) => INSERT INTO
+    - R (Read Data) => SELECT
+    - U (Update Data) => UPDATE 
+    - D (Delete Data) => DELETE   
