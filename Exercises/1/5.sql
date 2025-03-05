@@ -1,0 +1,6 @@
+ALTER TABLE products
+MODIFY COLUMN product_name VARCHAR(232) NOT NULL,
+MODIFY COLUMN price FLOAT CHECK (price > 0) NOT NULL,
+MODIFY COLUMN description TEXT NOT NULL,
+MODIFY COLUMN amount_in_stock INT CHECK(amount_in_stock >= 0) DEFAULT 0,
+MODIFY COLUMN image TEXT;
