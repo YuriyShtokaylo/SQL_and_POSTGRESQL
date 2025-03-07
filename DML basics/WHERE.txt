@@ -1,0 +1,15 @@
+WHERE:
+
+    - =, IS...
+        Check for equality
+        "=" for most cases
+        "IS..." for comparison to NULL (and others)
+    - <>, !=, IS NOT...
+        Check for inequality
+        "!=" is an alias dfor "<>"
+        "IS NOT..." for comparition to NULL (and others)
+    - > / >=                                             |
+        Check for greater than / greater or equal        | BEATWEEN
+    - < / <=                                             |
+        Check for smaller than / smaller or equal        |
+    - AND, OR

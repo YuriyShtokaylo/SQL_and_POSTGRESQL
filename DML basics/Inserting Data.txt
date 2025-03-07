@@ -1,0 +1,18 @@
+3 main ways:
+
+    - Insert one row(column names can be omitted)
+
+        INSERT INTO <table name> (<column names>)
+        VALUES (<column values>);
+
+    - Insert multiple rows in one single command    
+    
+        INSERT INTO <table name> (<column names>)
+        VALUES 
+            (<column values>), -- row 1
+            (<column values>); -- row 2
+
+    - Insert values returned by a query        
+    
+        INSERT INTO <table name> (<column names>)
+        SELCT <query>;
