@@ -1,0 +1,16 @@
+Data relationships & JOINs
+    Data normalization & JOINing data across tables
+
+        - Data normalization
+        - One-to-one, one-to-many, many-to-many
+        - INNER JOIN, LEFT JOIN and...
+
+        Primary AND Foraign KEYS :-)
+
+        There 6 forms of normalization
+            I.    1NF
+            II.   2NF
+            III.  3NF
+            IV.   BCNF(3.6NF)
+            V.    4NF
+            VI.   5NF
