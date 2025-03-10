@@ -1,0 +1,5 @@
+ALTER TABLE users
+ADD FOREIGN KEY address_id REFERENCES addresses (id) ON DELETE ... ON UPDATE...;
+
+ALTER TABLE addresses
+ADD FOREIGN KEY city_id REFERENCES city (id) ON DELETE ... ON UPDATE...;

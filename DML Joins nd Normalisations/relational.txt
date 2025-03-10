@@ -1,0 +1,38 @@
+Data relationships & JOINs
+    Data normalization & JOINing data across tables
+
+        - Data normalization
+        - One-to-one, one-to-many, many-to-many
+        - INNER JOIN, LEFT JOIN and...
+
+        Primary AND Foraign KEYS :-)
+
+        There are 6 forms of normalization
+            I.    1NF           1 Normal Form - Each table cell(column + row) should contain a single value. Each row(record) should be unique.
+            II.   2NF           2 Normal Form - There are no duplicate row values because of multi-column keys(composite keys)
+            III.  3NF           3 Normal Form - All column values in a row are dependent on only the primary key
+            IV.   BCNF(3.6NF)   Boyce-Codd Normal Form - There must be no conflicting unique identification criteria(i.e. column value combination) -> Avoid multile entities in one table 
+            V.    4NF           4 Normal Form - All combinations of all(non-key) cell values should be possible
+            VI.   5NF           5 Normal Form - There are no clashing column values because of implicit colum dependencies
+
+        normalization for humans
+
+            Simple rule
+                Avoid mixing data entities in the same table, avoid multiple values in a single table cell but also try to avoid spliting basic data across dozen tables!
+
+                    - One Table = One Data Entity
+                    - One Cell = One Value
+
+                    And there might be more data entities than it might first look like!    
+
+
+
+UNIONS VS JOINS
+
+    - UNIONS:
+        UNION is a clause that combines multiple results into one result set by appending rows
+
+    -- JOINS
+        JOIN clauses merge multiple tables into one result set by appending columns
+
+            INNER, OUTER(LEFT or RIGHT), CROSS
