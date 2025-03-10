@@ -24,3 +24,15 @@ Data relationships & JOINs
                     - One Cell = One Value
 
                     And there might be more data entities than it might first look like!    
+
+
+
+UNIONS VS JOINS
+
+    - UNIONS:
+        UNION is a clause that combines multiple results into one result set by appending rows
+
+    -- JOINS
+        JOIN clauses merge multiple tables into one result set by appending columns
+
+            INNER, OUTER(LEFT or RIGHT), CROSS
