@@ -1,0 +1,22 @@
+Keys:
+    - Composite Primary Key
+    - Different Ways Of Defining Primary and Foraign Keys
+    - Self-Referantial Relationships
+
+    PRIMARY KEYS
+
+        ! Primary keys don't have to be auto-incrementing integers !
+        PRIMARY KEY should be UNIQUE and NOT NULL
+        Just ONE PRIMARY KEY per TABLE
+
+    COMPOSITE PRIMARY KEYS
+
+        You must only have one primary key per table 
+                        but
+        Primary keys can span multiple columns     
+
+        SURROGATE KEY - it acts as a unique primary identifier but isn't the real unique identification criteria 
+
+            THERE IS NOTHING WRONG WITH USING SURROGATE KEYS
+
+        EXAMPLE: PRIMARY KEY (column1, column2) <= THIS MEAN THAT OUR PRIMARY KEY IS UNIQ COMBINATION OF VALUES IN TWO DIFFERENT COLUMNS.              
