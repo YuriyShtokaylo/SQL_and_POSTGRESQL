@@ -1,0 +1,23 @@
+Aggregate Functions & GROUP BY
+
+    - Understanding Aggregate Functions
+    - Working with GROUP BY & HAVING vs WHERE
+    - Nested Subqueries & Window Functions
+
+    AGGREGATE FUNCTION
+
+        - Aggregate
+            Mathematical operation returning a single (aggregated) result.
+        - Function 
+            Predefined operation, which can be executed on demund
+
+        Example OF CORE AGGREGATED FUNCTIONS:
+            COUNT(), SUM(), MAX(), MIN(), AVG() 
+
+            UNDERSTANDING:
+
+                - COUNT() Aggregate the number of items    
+                - MIN() and MAX() Find Minimum or maximum value
+                - SUM() Aggregate summing of items 
+                - AVG() Finds average for items (REM => AVERAGE ignore NULL values)
+                - ROUND() Round result(if we do not provide second argument it rounds to integer)
