@@ -21,3 +21,25 @@ Aggregate Functions & GROUP BY
                 - SUM() Aggregate summing of items 
                 - AVG() Finds average for items (REM => AVERAGE ignore NULL values)
                 - ROUND() Round result(if we do not provide second argument it rounds to integer)
+
+            GROUP BY is cool =-)
+
+                Groop items with similar values by columns...
+
+                    WHERE vs HAVING
+
+                        WHERE and HAVING are two kinds of filtering statements
+
+                            WHERE for regular select
+
+                            HAVING for grouped(aggregated) data
+
+ORDER OF EXECUTION IN SQL:
+
+    IN SQL THERE IS ORDER OF EXECUTION!
+
+    FROM and/or JOIN clause => WHERE clause => GROUP BY clause => HAVING clause => SELECT clause => DISTINCT clause => ORDER BY clause => LIMIT and/or OFFSET clause. 
+
+NESTED SUBQUERIES
+
+    
