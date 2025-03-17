@@ -41,4 +41,37 @@ DIFFERENT TYPES OF INDEXES
 
             - Used for different purposes & data values
 
-            
+
+!!! EXPLAIN !!!
+    EXPLAIN SELECT... results in: something like that:
+    
+        [
+            {"QUERY PLAN": 
+                "Seq Scan on users  (cost=0.00..10.62 rows=17 width=1556)"}, 
+            {"QUERY PLAN": 
+                "Filter: (salary > 12000)"}
+        ]
+
+    EXPLAIN ANALYZE SELECT... on other hand results in: something like that:
+
+        [
+            {
+                "QUERY PLAN": "Seq Scan on users  (cost=0.00..10.62 rows=17 width=1556) (actual time=0.010..0.010 rows=3 loops=1)"
+            },
+            {
+                "QUERY PLAN": "  Filter: (salary > 12000)"
+            },
+            {
+                "QUERY PLAN": "  Rows Removed by Filter: 3"
+            },
+            {
+                "QUERY PLAN": "Planning Time: 0.417 ms"
+            },
+            {
+                "QUERY PLAN": "Execution Time: 0.041 ms"
+            }
+        ]
+
+        THAT EXAMPLES ARE FOR POSTGRES
+
+        UNIQUE underhood create UNIQUE INDEX
