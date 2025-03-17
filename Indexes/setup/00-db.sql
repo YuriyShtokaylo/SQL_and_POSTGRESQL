@@ -1,0 +1,1 @@
+CREATE DATABASE indexes; -- Run this first + set up new connection thereafter

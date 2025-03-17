@@ -1,0 +1,44 @@
+- What are indexes? And why whould you use them?
+- Different types of indesex.
+- Indexes in action.
+
+Indexes can enhance query performance.
+
+INDEXES works for queries with WHERE
+INDEXES:
+    - Values are stored in a sorted extra table. A connection to the original row is stored along with the index value.
+    By default you just have INDEX for PRIMARY KEY
+
+THE PROBLEM WITH TOO MANY INDEXES:
+
+    Indexes can speed up queries (with WHERE)
+        - BUT -
+        - Whenever index values change, the values have to be updated in both the original table and INDEX table
+            - Many INDEXES:
+                Many tables are updated whenever data is manipulated
+            - Frequent value changes:
+                Multiple tables are updated frequently
+        - AS RESULT -
+            - SLOW QUERIES & BAD PERFORMANCE            
+
+DIFFERENT TYPES OF INDEXES
+
+    - Technical part(implementation):
+
+        B-TREE
+        HASH
+        GoST
+        ...
+
+        - Use diffrrent algoritms & support different comparison operations ...
+
+    - Kind Of Indexes / Functionality:
+
+        - Standard single-column index
+        - Unique index
+        - Multi-column index
+        - Partial index(Not in MySQL)
+
+            - Used for different purposes & data values
+
+            
