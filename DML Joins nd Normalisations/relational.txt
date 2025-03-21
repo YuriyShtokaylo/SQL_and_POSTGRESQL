@@ -7,6 +7,9 @@ Data relationships & JOINs
 
         Primary AND Foraign KEYS :-)
 
+            PRIMARY KEY
+            FORAIGN KEY
+
         There are 6 forms of normalization
             I.    1NF           1 Normal Form - Each table cell(column + row) should contain a single value. Each row(record) should be unique.
             II.   2NF           2 Normal Form - There are no duplicate row values because of multi-column keys(composite keys)
@@ -36,3 +39,15 @@ UNIONS VS JOINS
         JOIN clauses merge multiple tables into one result set by appending columns
 
             INNER, OUTER(LEFT or RIGHT), CROSS
+
+
+DIFFERENT KINDS OF DATA RELATIONSHIPS:
+
+    - One-To-Many (1:n)
+        One record in table A has one or many related records in table B
+
+    - Many-To-Many (n:n)
+        One record in table A has one or many related tables in table B - and vice versa
+
+    - One-To-One (1:1)
+        One record in table A belong to exactly one record in table B - and vice versa        
