@@ -1,0 +1,6 @@
+WINDOW FUNCTIONS
+
+    ?! OVER() !? <=> PARTITION BY [chouse column by which we divide our results] ... <=> ORDER BY [strange stuff... it means we make some steps to do calculations...]...
+    RANK() <=> Build some rating ?!
+
+    ...!!!... ALL WINDOW FUNCTIONS are created by using OVER ...!!!...

@@ -1,0 +1,5 @@
+Query Functions and Operators
+
+    - Working with Mathematical & String Functions
+    - Understanding Date Functions and Introducing INTERVAL
+    - Introducting LIKE, Pattern Matching, Expressions & Transformations
